@@ -45,7 +45,7 @@ void route() {
   ROUTE_START()
 
   GET("/") {
-    char index_html[20];
+    char index_html[21];
     sprintf(index_html, "%s%s", PUBLIC_DIR, INDEX_HTML);
 
     HTTP_200;
